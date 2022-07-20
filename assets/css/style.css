@@ -54,7 +54,7 @@ p {
 
 .btn-primary {
     display: inline-block;
-    background: #DD0000;
+    background: #334094;
     border-radius: 5px;
     text-align: center;
     padding: 16px 21px;
@@ -70,7 +70,18 @@ p {
 .btn-primary:hover {
     background: #FFFFFF;
     color: #161616;
-    border: 1px solid #E8E8E8;
+    border: 1px solid #334094;
+}
+
+a.btn-primary.active {
+    background: #334094 !important;
+    color: #fff !important;
+}
+
+a.btn-primary.active:hover {
+    background: #FFFFFF !important;
+    color: #161616 !important;
+    border: 1px solid #334094;
 }
 
 /* hero area*/
@@ -91,11 +102,9 @@ p {
 
 .hero-content {
     max-width: 50%;
-    /* position: relative; */
 }
 
 .hero-img {
-    /* position: relative; */
     width: 50%;
 }
 
@@ -107,7 +116,7 @@ p {
     width: 581px;
     height: 613px;
     position: relative;
-    margin-bottom: -38px;
+    margin-bottom: -41px;
     z-index: 0;
     margin-left: 30px;
 }
@@ -187,7 +196,7 @@ p {
 }
 
 .service-btn a.btn-primary:hover {
-    background: #DD0000;
+    background: #334094;
     color: #fff;
 }
 
@@ -200,6 +209,7 @@ p {
     color: #161616;
     margin-bottom: 15px;
     transition: .3s;
+    border: 1px solid #161616;
 }
 
 .service-content p {
@@ -211,7 +221,7 @@ p {
 }
 
 .service-content button:hover {
-    background: #DD0000;
+    background: #334094;
     color: #fff;
 }
 
@@ -241,9 +251,32 @@ p {
     width: 131px;
 }
 
+/* index 2 file css services flag */
+.single-service.flag {
+    width: 312px;
+    border: 1px solid #E8E8E8;
+    height: 242px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
 
+.service-flag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
 
+.single-service.flag p {
+    padding: 0 50px 20px;
+}
 
+.service-flag span {
+    margin: 0 20px;
+}
 
 
 
@@ -287,7 +320,7 @@ p {
 }
 
 .container.footer-menu ul li a:hover {
-    color: #DD0000;
+    color: #334094;
 }
 
 /* .container.footer-menu ul li a:last-child {
